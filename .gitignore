@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# IDE-specific files
+.vscode/
+*.code-workspace
+
+# Dependency management
+node_modules/
+yarn.lock
+package-lock.json
+
+# Compiled files or directories
+*.pyo
+*.pyd
+__pycache__/
+dist/
+build/
+
+# Database files
+db.sqlite3
+
+# Local development settings
+.env
+
+# Webpack build files
+/dist/
+/node_modules/
+
+# Logs and temporary files
+logs/
+*.log
+*.swp
+.DS_Store
+
+# Editor-specific files
+.idea/
+*.iml

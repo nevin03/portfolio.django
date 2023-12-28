@@ -1,0 +1,66 @@
+.sub {
+    padding-top: 70px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.image-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #1598e5;
+
+}
+
+li {
+    font-family: 'Lora', serif;
+}
+
+li span {
+    color: black;
+    opacity: .9;
+}
+
+
+.border {
+    width: 300px;
+}
+
+ul {
+    padding-top: 40px;
+}
+
+.row {
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        padding-top: 20px;
+    }
+
+    .sub {
+        padding-bottom: 20px;
+        padding-left: 40px;
+    }
+
+    ul {
+        padding-top: 30px;
+    }
+
+    .image {
+        margin-left: 38px;
+    }
+
+    .name span {
+        margin-left: 114px;
+    }
+}
